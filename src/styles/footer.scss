@@ -1,0 +1,53 @@
+.footer {
+  padding: 60px 0;
+  background: #2B3966;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+  }
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    &-desc {
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      opacity: 0.5;
+    }
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &-title {
+      font-weight: 900;
+      font-size: 16px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      opacity: 0.5;
+    }
+    &-links {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    &-link {
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      opacity: 0.7;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    &-socials {
+      display: flex;
+      column-gap: 10px;
+    }
+  }
+}
